@@ -243,7 +243,7 @@ border: 3px solid black;
                         </div>
                         <div class="form-group">
                             <label>Departure time</label>
-                            <input type="text" name="dDepartureTime" class="form-control <?php echo (!empty($DepartureTime_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $DepartureTime; ?>">
+                            <input type="text" name="DepartureTime" class="form-control <?php echo (!empty($DepartureTime_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $DepartureTime; ?>">
                             <span class="invalid-feedback"><?php echo $DepartureTime_err; ?></span>
                         </div>
                         <input type="hidden" name="id" value="<?php echo $id; ?>" />
